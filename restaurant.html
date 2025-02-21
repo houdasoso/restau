@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyles.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!--header section-->
+    <nav class="navbar">
+        <div class="container" >
+            <ul style="list-style-type: none;"   margin: 10;
+            padding: 10;
+            overflow: hidden;
+            background-color: #333;
+             class="navbar-nav">
+                <li style="float:left" class="nav-item1">my restaurant</li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Aboutus</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact </a>
+                  </li>
+              </ul>
+        </div>
+    </nav>
+   <!--here is the hero section--> 
+   <div id="hero" >
+<img src="kichen.jpg" alt="delicious dish" id="im" >
+<div class="texto">
+    <h2>At Our restaurant Best Quality </h2>
+    <br>
+    <button type="button" >Menu</button>
+</div>
+   </div>
+   <!--ici Menu section-->
+   <section class="menu-section">
+    <h2>Our Menu</h2>
+    <div class="menu-grid">
+        <div class="menu-item">
+            <img src="téléchargement.jpg" alt="Menu Item 1" id="lol">
+            <h3>Grilled Chicken</h3>
+            <p>Juicy grilled chicken with herbs and spices.</p>
+            <div class="price">$12.99</div>
+        </div>
+
+        <div class="menu-item">
+            <img src="téléchargement (1).jpg" alt="Menu Item 2" id="lol">
+            <h3>Pasta Alfredo</h3>
+            <p>Creamy Alfredo pasta with parmesan cheese.</p>
+            <br>
+            <div class="price">$10.99</div>
+        </div>
+
+        <div class="menu-item">
+            <img src="téléchargement (2).jpg" alt="Menu Item 3"id="lol">
+            <h3>Veggie Pizza</h3>
+            <p>Delicious vegetable pizza with fresh toppings.</p>
+            <div class="price">$9.99</div>
+        </div>
+    </div>
+</section>
+<!-- about us section is here  -->
+ <section class="container-fluid" >
+            <div class="row align-items-center">
+                <!-- Column for Image -->
+                <div class="col-md-6">
+                    <img src="Algerian couscous 🇩🇿🇩🇿.jpg" alt="Restaurant Image" class="img-fluid">
+                </div>
+                <!-- Column for Text -->
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <p>Welcome to our restaurant! We serve delicious meals with the finest ingredients...</p>
+                </div>
+            </div>
+ </section>    
+ <section class="Contact-section">
+    <div class="container1">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-6">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form>
+                <!-- Name Field -->
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                </div>
+                <!-- Email Field -->
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+                <!-- Message Field -->
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your message..." required></textarea>
+                </div>
+                <!-- Submit Button -->
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+</section>
+<footer class="bg-dark text-light py-3">
+    <div class="container text-center">
+        <p class="mb-2">© 2025 Your Restaurant Name. All Rights Reserved.</p>
+        <!-- Social Media Icons -->
+        <div>
+            <a href="#" class="text-light mx-2"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="#" class="text-light mx-2"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="#" class="text-light mx-2"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#" class="text-light mx-2"><i class="fab fa-linkedin fa-lg"></i></a>
+        </div>
+    </div>
+</footer>
+
+<!-- Add FontAwesome for icons -->
+<script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous">
+</script>
+<!-- Back to Top Button -->
+<a href="#" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+</a>
+</body>
+</html>

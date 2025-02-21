@@ -1,0 +1,172 @@
+html {
+    scroll-behavior: smooth;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+
+  
+  li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 1%;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+.nav-linl{
+    float:right
+}
+#im{
+    
+    border-radius: 8px;
+    filter: blur(2px);
+    width: 100%;
+    height: 400px;
+}
+#hero{
+    position: relative;
+}
+.texto {
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    font-size: 20px;
+    background-color: rgb(238, 239, 239);
+    border-radius: 25px;
+    font-family: fantasy ;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 10px;
+}
+button{
+    position: relative;
+    border-radius: 25px;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;}
+.container{
+    display: flexbox;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between items */
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto; /* Centers the grid */
+}
+
+.menu-item {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.menu-item p {
+    font-size: 16px;
+    color: #666;
+    display: inline;
+}
+.price {
+    margin-bottom: 100%;
+    font-size: large;
+    font-style: oblique;
+}
+.container-fluid {
+    padding: 50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row-reverse; /* This swaps the order: image on right, text on left */
+    align-items: center;
+}
+
+.col-md-6 {
+    padding: 20px;
+}
+
+.img-fluid {
+    width: 50%;
+    height: auto;
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+/* Contact Section Styling */
+.container1 {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin-right: 0%;
+}
+
+/* Form Title */
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Form Fields */
+.form-label {
+    font-weight: bold;
+    color: #444;
+}
+
+.form-control {
+    padding: 0px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    transition: 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Highlight input when selected */
+    box-sh
+}
+
